@@ -1,0 +1,248 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0; 
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+
+header {
+    background: #1d3557; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1rem;
+    color: #a8dadc; 
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f1faee; 
+    font-size: 1.1rem;
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background: #457b9d; 
+    color: #fff;
+    border: 2px solid #f1faee;
+}
+
+
+.hero {
+    background: linear-gradient(135deg, #457b9d, #1d3557);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 0 0 50px 50px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    background: #e63946;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.hero button:hover {
+    background: #d62828;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #e0e0e0; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1d3557;
+}
+
+main p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+
+.red ul, 
+.topic ul, 
+.year-section ul {
+    list-style: none; 
+    padding: 0;
+    text-align: center; 
+}
+
+.red ul li, 
+.topic ul li, 
+.year-section ul li {
+    margin-bottom: 10px; 
+    font-size: 1rem;
+}
+
+
+.email {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #1d3557;
+    font-weight: bold;
+}
+
+.email a {
+    color: #e63946;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.email a:hover {
+    color: #d62828;
+}
+
+
+footer {
+    background: #1d3557;
+    color: #f1faee;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    font-size: 0.9rem;
+}
+
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 20px;
+    background: #e0e0e0; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #1d3557;
+    font-size: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #b0bec5; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #e0e0e0; 
+    transition: border-color 0.3s, box-shadow 0.3s;
+    color: #1d3557; 
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #457b9d; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(69, 123, 157, 0.5);
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.send-btn {
+    display: block;
+    width: 100%;
+    background: #457b9d; 
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.send-btn:hover {
+    background: #1d3557; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
